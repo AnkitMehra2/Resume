@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 95vw;
+}
+
+ .one{
+    color: bisque;
+}
+.item{
+    margin: 3px;
+    padding: 6px;
+    display:inline-block;
+    position:relative;
+    top: 5%;
+    left: 75%;
+}
+#navbar{
+    position: fixed;
+    top: 3%;
+    left: 55%;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#navbar ul li:hover{
+    color: black;
+}
+#info{
+    
+    padding: 4px;
+}
+.two{
+    
+    height: 100vh;
+    width: 99vw;
+    justify-content: center;
+    
+    
+    
+}
+#page1{
+    background-color: rgb(19, 85, 89);
+}
+
+#home{
+    
+    position: relative;
+    top: 40%;
+    text-align: center;
+}
+#page1 p{
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
+#page2{
+    background-color: aquamarine;
+}
+#page3{
+    background-color: rgb(3, 16, 68);
+}
+#page3 p{
+    color: azure;
+    text-align: center;
+    position: relative;
+    top: 47%;
+}
+#contact{
+    color: aqua;
+    position: relative;
+    top: 40%;
+    
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top:10%;
+    text-align: justify;
+}
+.intro{
+    width: 40%;
+
+}
+.intro h1{
+    color: rgb(20, 160, 57);
+}
+.two p{
+    position: relative;
+    top: 5%;
+    text-align: justify;
+
+    
+}
+
+.about{
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+}
+#about{
+    margin: 6px;
+    padding: 4px;
+}
+.about p{
+    margin: 6px;
+    padding: 4px;
+}
+.education{
+    position: relative;
+    top: 10%;
+    text-align: justify;
+    margin: 20px;
+    padding: 20px;
+}
+.education ul li{
+    margin: 8px;
+    padding: 8px;
+}
+.skills{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 10%;
+}
+.skills ol li{
+    margin: 8px;
+    padding: 10px;
+}
+
+.progress-line {
+    
+    position: relative;
+    height: 10px;
+    width: 250px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  }
+   .progress-line span {
+  
+    position: absolute;
+    background: #25b79f;
+    height: 100%;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  }
+  @keyframes animate {
+    100% {
+      transform: scaleX(1);
+    }
+  }
+  .progress-line .html {
+    width: 80%;
+  }
+  .progress-line .css {
+    width: 70%;
+  }
+  .progress-line .javascript {
+    width: 50%;
+  }
+  .progress-line .python {
+    width: 80%;
+  }
+  .progress-line .sql {
+    width: 50%;
+  }
+  .progress-line span::before {
+    position: absolute;
+    content: "";
+    height: 0;
+    right: 0;
+    top: -12px;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-style: #f0f0f0;
+    border-top-color: #f0f0f0;
+  }
+.progress-line span::after {
+    position: absolute;
+    right: 0;
+    top: -28px;
+    color: #07374a;
+    font-size: 12px;
+    font-weight: 700;
+    background: #f0f0f0;
+    padding: 1px 8px;
+    border-radius: 3px;
+  }
+  .progress-line .html::after {
+    content: "80%";
+  }
+  .progress-line .css::after {
+    content: "70%";
+  }
+  .progress-line .javascript::after {
+    content: "50%";
+  }
+  .progress-line .python::after {
+    content: "80%";
+  }
+  .progress-line .sql::after {
+    content: "50%";
+  }
+
+#resume{
+    position: relative;
+    top: 30%;
+    text-align: center;
+}
+
+.sites{
+    position: relative;
+    top: 55%;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.sites a{
+    text-decoration: none;
+    color: azure;
+    margin: 4px;
+    padding: 4px;
+}
+
+#page4{
+    background-color:rgb(155, 170, 149);
+}
+.projects{
+  position: relative;
+  top: 35%;
+  text-align:justify;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+
+}
+.projects a{
+  text-decoration: none;
+  cursor: pointer;
+  
+  
+}
+.proone{
+  margin: 5px;
+  padding: 5px;
+  justify-content: center;
+}
+.proone h{
+  text-align: center;
+}
+.protwo{
+  margin: 5px;
+  padding: 5px;
+  
+}
+.protwo h{
+  justify-content: center;
+}
+.prothree{
+  margin: 5px;
+  padding: 5px;
+  justify-content: center;
+  
+} 
