@@ -276,5 +276,8 @@ body{
   margin: 5px;
   padding: 5px;
   justify-content: center;
+  align-items:center;
+  position: relative;
+  top: 45%;
   
 } 
