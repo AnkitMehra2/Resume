@@ -273,11 +273,11 @@ body{
   justify-content: center;
 }
 .prothree{
-  margin: 5px;
+  margin: 10px;
   padding: 5px;
   justify-content: center;
   align-items:center;
   position: relative;
-  top: 45%;
+  top: 55%;
   
 } 
