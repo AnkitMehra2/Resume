@@ -239,11 +239,15 @@ body{
 }
 
 #page4{
-    background-color:rgb(155, 170, 149);
+    background-color:rgb(157, 183, 147);
+}
+#resume{
+  position: relative;
+  top: 20%;
 }
 .projects{
   position: relative;
-  top: 35%;
+  top: 25%;
   text-align:justify;
   margin: 5px;
   padding: 5px;
@@ -259,7 +263,7 @@ body{
 .proone{
   margin: 5px;
   padding: 5px;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .proone h{
   text-align: center;
@@ -273,11 +277,12 @@ body{
   justify-content: center;
 }
 .prothree{
-  margin: 10px;
-  padding: 5px;
+  margin: 12px;
+  padding: 10px;
   justify-content: center;
   align-items:center;
   position: relative;
-  top: 55%;
+  top: 35%;
   
 } 
+
